@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ur Travel Agent</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <img class="nav-logo" src="assets/img/logo.png" alt="Logo">
+            <div class="nav-button">
+                <a href="#banner-section">Home</a>
+                <a href="#our-package-section">Our Package</a>
+                <a href="#call-action-section">Call Us</a>
+            </div>
+        </div>
+        <section id="banner-section" class="banner">
+            <div class="banner-text">
+                <h1 class="title">Your Trusted Travel Agent's</h1>
+                <h2 class="subtitle">Your happiness is our happiness</h2>
+            </div>
+            <div class="main">
+                <div class="testimonials">
+                    <div class="testimonials-image">
+                        <img id="testimonial-slide" src="assets/img/japan1.jpg" alt="image" width="500" height="400">
+                    </div>
+                    <p class="caption">"Liburan jadi menyenangkan bersama Travel Agentku."</p>
+                    <div class="testimonial-author">
+                        <img src="assets/img/user.png" alt="User Icon">
+                        <div class="author-info">
+                            <h3>Tombom Saotik Hutabarat</h3>
+                            <p>Customer Service, 30</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-contact">
+                    <h3>Contact Us</h3>
+                    <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+                    <div class="form-section">
+                        <form id="contactForm">
+                            <label for="name">Nama Anda:</label>
+                            <input id="name" type="text" name="name" placeholder="Name">
+                            <small id="nameError" class="error-message"></small>
+                            <label for="email">Email Anda:</label>
+                            <input id="email" name="email" placeholder="Email">
+                            <small id="emailError" class="error-message"></small>
+                            <label for="travel_destination">What are you interested in?</label>
+                            <select name="travel_destination" id="travel_destination">
+                                <option value="">-- Pilih Destinasi --</option>
+                                <option value="1">Bali</option>
+                                <option value="2">Japan</option>
+                                <option value="3">Singapore</option>
+                                <option value="4">Bandung</option>
+                            </select>
+                            <small id="destinationError" class="error-message"></small>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="our-package-section" class="our-package">
+            <h2>Our Package</h2>
+            <div class="package-container">
+                <div class="package-item">
+                    <div class="city">
+                        <span class="icon">📍</span>
+                        <h3>Bali</h3>
+                    </div>
+                    <p>Jelajahi pantai eksotis, budaya unik, dan kuliner lezat di Bali.</p>
+                </div>
+                <div class="package-item">
+                    <div class="city">
+                        <span class="icon">📍</span>
+                        <h3>Japan</h3>
+                    </div>
+                    <p>Nikmati sakura yang indah, teknologi canggih, dan budaya tradisional Jepang.</p>
+                </div>
+                <div class="package-item">
+                    <div class="city">
+                        <span class="icon">📍</span>
+                        <h3>Singapore</h3>
+                    </div>
+                    <p>Kunjungi Gardens by the Bay dan nikmati wisata belanja terbaik di Asia.</p>
+                </div>
+                <div class="package-item">
+                    <div class="city">
+                        <span class="icon">⭐</span>
+                        <h3>Pengalaman Perjalanan yang Tak Terlupakan</h3>
+                    </div>
+                    <p>Kami memastikan setiap perjalanan Anda dirancang dengan baik, mulai dari transportasi, akomodasi,
+                        hingga destinasi wisata yang menarik.</p>
+                </div>
+                <div class="package-item">
+                    <div class="city">
+                        <span class="icon">⭐</span>
+                        <h3>Paket Wisata Sesuai Kebutuhan Anda</h3>
+                    </div>
+                    <p>Tersedia berbagai pilihan paket, baik untuk liburan keluarga, honeymoon, perjalanan bisnis,
+                        hingga wisata budaya dan petualangan.</p>
+                </div>
+                <div class="package-item">
+                    <div class="city">
+                        <span class="icon">⭐</span>
+                        <h3>Pelayanan Terbaik dan Profesional</h3>
+                    </div>
+                    <p>Tim kami siap membantu Anda 24/7 dengan layanan pelanggan yang responsif dan ramah.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="call-action-section" class="closing-argument">
+            <h2>Mulai Perjalanan Anda Bersama Kami</h2>
+            <p>Bersiaplah untuk perjalanan tak terlupakan dengan layanan terbaik dari kami.
+                Dapatkan pengalaman wisata yang nyaman dan penuh petualangan!</p>
+            <a href="#banner-section" class="cta-button">MULAI</a>
+        </section>
+    </div>
+</body>
+
+</html>
